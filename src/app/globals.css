@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+.column{
+  &:nth-of-type(1){
+    top: -30%;
+  }
+  &:nth-of-type(2){
+    top: -70%;
+  }
+  &:nth-of-type(3){
+    top: -30%;
+  }
+  &:nth-of-type(4){
+    top: -60%;
+  }
+}
